@@ -4,3 +4,178 @@ Updated: 16 July, 2020
 Notes: Hand Coded for Fiverr.com
 
 ===================================*/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bree Serif', serif;
+    background-image: url(assets/img/background.jpg);
+    background-color: #00cbdf;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    color: #333;
+    text-decoration: none;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.float_left {
+    float: left;
+}
+
+.float_right {
+    float: right;
+}
+
+.fix:before,
+.fix:after {
+    content: "";
+    display: table;
+}
+
+.fix:after {
+    clear: both;
+}
+
+/*------End Base CSS------*/
+
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmenu li {
+    display: inline-block;
+}
+
+.mainmenu li a {
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 5px 16px;
+    position: relative;
+}
+
+.mainmenu {
+    text-align: center;
+}
+
+.mainmenu li a::after {
+    position: absolute;
+    content: "";
+    right: -8px;
+    top: 50%;
+    width: 15px;
+    height: 4px;
+    background: #fff;
+    margin-top: -2px;
+}
+
+.mainmenu li:last-child a:after {
+    display: none;
+}
+
+.heading {
+    text-align: center;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.heading .headingC1 {
+    color: #f7fbb4;
+}
+
+.heading .headingC2 {
+    color: #b0fbf9;
+}
+
+.header-area {
+
+    background-image: url(assets/img/header-pattern.png);
+    background-repeat: no-repeat;
+}
+
+.content-area {
+    padding: 100px 0;
+}
+
+.girl-bg {
+    background-color: #00ffff;
+    padding: 0 50px;
+    border: 5px solid #fff;
+    margin-top: 30px;
+}
+
+.content-area h2 {
+    font-size: 150px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 1;
+}
+
+.content-area h3 {
+    background: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    padding: 7px;
+}
+
+.text-box {
+    background: #fff;
+    padding: 15px;
+    font-size: 30px;
+    color: #01009b;
+    margin-top: 150px;
+}
