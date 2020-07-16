@@ -1,52 +1,70 @@
 /*	Medium Layout: 1280px	*/
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-	
-	
+
+	.bottom-pattern {
+		display: none;
+	}
+
+	body {
+		background-repeat: repeat-y;
+	}
 }
 
 
 
 /*		Tablet Layout: 768px.       */
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-	.column {
-		width: 750px;
-	}
-
-}
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
 
 
 
 
 /*		Tablet and Mobile Layout         */
 @media only screen and (max-width: 991px) {
-    
+	.mainmenu li a {
+		font-size: 24px;
+	}
 
-    
+	.heading {
+		font-size: 40px;
+	}
+
+	.content-area {
+		padding: 0;
+	}
+
+	.text-box {
+		font-size: 20px;
+		margin-top: 15px;
+	}
+
+	.bottom-pattern {
+		display: none;
+	}
+
+	.footer-area {
+		padding: 10px 0;
+	}
+
+	body {
+		background-repeat: repeat-y;
+	}
+
+	.footer-text {
+		color: #fff;
+	}
 }
 
 
 /*		Mobile Layout: 320px.         */
 
-@media only screen and (max-width: 767px) {
-	
-	.column {
-		width: 300px;
-	}
-	
-}
+@media only screen and (max-width: 767px) {}
 
 
 
 /*		Wide Mobile Layout: 480px.        */
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-	
-	.column {
-		width: 450px;
-	}
-
-}
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
 
 
 
@@ -57,12 +75,5 @@
 	device-pixel-ratio of 2+, such as iPhone 4.
 -----------------------------------------------    */
 
-@media 
-	only screen and (-webkit-min-device-pixel-ratio: 2),
-	only screen and (min-device-pixel-ratio: 2) {
-	
-	body {
-	
-	}
-	
-}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {}
